@@ -1,3 +1,5 @@
+//: [Previous](@previous)
+
 //: # Closures
 
 import UIKit
@@ -83,3 +85,5 @@ doSomethingWithCompletion {
 
 
 
+
+//: [Next](@next)
