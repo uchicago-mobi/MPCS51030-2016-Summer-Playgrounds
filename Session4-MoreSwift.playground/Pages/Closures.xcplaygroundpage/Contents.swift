@@ -48,34 +48,46 @@ lola("Lola", 3)
 //: }`
 
 
-// Required for closures
+// Required by Playgrounds for closures
 XCPlaygroundPage.currentPage.needsIndefiniteExecution = true
 
-//: Named closure (a function)
+//: ## Named closure (a function)
 func doSomething(message: String) {
   print("\(message)")
 }
 doSomething("HI")
 
-//: Function with closure as a parameter
-func doSomethingWithCompletion(completion: (String) -> Void) {
-  // We're inside the closure here
-  let message = "Hi from completion block"
 
-  // Execute the completion block with the required parameter
+//: ## Function with closure as a parameter.  
+func doSomethingWithCompletion(completion: (String) -> Void) {
+  // We're inside the function "doSomethingWithCompletion"
+  let message = "Hi from 'doSomethingWithCompletion'"
+
+  // Execute the completion block with the required parameter.  
+  // Recall that the function signature is (String) -> Void.
   completion(message)
 }
 
-//: Call a function with a completion handler (closure)
-//: Message is the parameter; void is return type
+//: >A common convention is to use the name 'completion' for closures that will be called
+//: > after function is completed
+
+
+//: ## Call a function with a completion handler (closure)
 doSomethingWithCompletion { (message) -> Void in
-  // This code will be called as the completion block
-  print("In closure...")
+ 
+   // This code will be called as the completion block
+  print("Code from the passed closure is executing...")
+
+  // The String parameter is being passed from the closure
+  // and is available in the variable `message`
   print("Message from completion block: \(message)")
 }
 
-//: Trailing closure syntax.  Closure arguments can be 
-//: references by position ($0, $1, ...)
+//: > Message is the parameter; void is return type
+
+
+//: ## Trailing closure syntax.
+//: Closure arguments can be references by position ($0, $1, ...)
 
 doSomethingWithCompletion {
   // This code will be called as the completion block

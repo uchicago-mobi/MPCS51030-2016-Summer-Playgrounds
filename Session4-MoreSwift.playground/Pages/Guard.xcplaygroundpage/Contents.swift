@@ -4,6 +4,10 @@ import Foundation
 
 //: ## The Guard Statement
 
+//: Test for conditionals....  
+
+
+
 // Define some optional fruit integers
 var apples: Int?
 var oranges: Int?
