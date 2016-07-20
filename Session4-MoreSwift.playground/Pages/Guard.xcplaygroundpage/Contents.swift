@@ -48,6 +48,7 @@ guard let apples2 = apples else {
   //return would be more common in an application
 }
 
+
 print("We have \(apples2) apples and they are unwrapped for the rest of the scope.")
 
 

@@ -74,6 +74,7 @@ func getIssues(url: String, completion:([[String: AnyObject]]?) -> Void) {
         fatalError("We couldn't cast the JSON to an array of dictionaries")
       }
       
+      // Pay Attention
       completion(issues)
       
     } catch {
@@ -99,6 +100,12 @@ getIssues("https://api.github.com/repos/uchicago-mobi/2016-Summer-Forum/issues?s
   
   // Reload the table.  The tables data source should be the property you copied the
   // issues to (above). Remember to refresh the table on the main thread
+  dispatch_async(dispatch_get_main_queue()) {
+      // Anything in here is execute on the main thread
+      // You should reload your table here.
+    //tableView.reload()
+    
+  }
 
 }
 

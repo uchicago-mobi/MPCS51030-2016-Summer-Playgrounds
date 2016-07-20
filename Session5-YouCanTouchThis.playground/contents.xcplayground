@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Property Observers'/>
+        <page name='Computed Properties'/>
+        <page name='Singleton'/>
+        <page name='View'/>
+        <page name='Animations'/>
+        <page name='Complex Animations'/>
+        <page name='View Controller Animation'/>
+        <page name='Gestures'/>
+        <page name='Pan Gesture'/>
+    </pages>
+</playground>
