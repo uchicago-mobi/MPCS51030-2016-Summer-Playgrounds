@@ -36,7 +36,7 @@ var color: String = "blue" {
 }
 
 // Set the color to red and see what happens
-color = "red"
+color = "orange"
 
 
 
