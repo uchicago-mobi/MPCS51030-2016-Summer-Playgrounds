@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  KickingABallAndPretendingYouAreHurt
+
+  Created by T. Andrew Binkowski on 5/16/16.
+  Copyright © 2016 The University of Chicago, Department of Computer Science. All rights reserved.
+*/
+
+GREETING = "Hello";
+
+
+AGE      = "I am %@ years old.";

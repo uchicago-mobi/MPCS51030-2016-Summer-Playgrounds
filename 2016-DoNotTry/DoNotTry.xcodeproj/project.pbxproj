@@ -16,6 +16,7 @@
 		374CE29A1C895DA900D0E41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374CE2991C895DA900D0E41A /* Assets.xcassets */; };
 		374CE29D1C895DA900D0E41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374CE29B1C895DA900D0E41A /* LaunchScreen.storyboard */; };
 		374CE2A51C895E4200D0E41A /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374CE2A41C895E4200D0E41A /* Onboarding.storyboard */; };
+		3789769A1D594899005E9792 /* Onboarding2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378976991D594899005E9792 /* Onboarding2.storyboard */; };
 		37F2B8FD1C97755A00300BE1 /* inclasslaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F2B8FC1C97755A00300BE1 /* inclasslaunch.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		374CE29C1C895DA900D0E41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		374CE29E1C895DA900D0E41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		374CE2A41C895E4200D0E41A /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		378976991D594899005E9792 /* Onboarding2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding2.storyboard; sourceTree = "<group>"; };
 		37F2B8FC1C97755A00300BE1 /* inclasslaunch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = inclasslaunch.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 				374CE2941C895DA900D0E41A /* ViewController.swift */,
 				374CE2961C895DA900D0E41A /* Main.storyboard */,
 				374CE2A41C895E4200D0E41A /* Onboarding.storyboard */,
+				378976991D594899005E9792 /* Onboarding2.storyboard */,
 				37F2B8FC1C97755A00300BE1 /* inclasslaunch.storyboard */,
 				3731479B1C8D1E8F00F0866F /* OnboardingViewController.swift */,
 				373147991C8B23C000F0866F /* README.md */,
@@ -141,6 +144,7 @@
 				374CE29A1C895DA900D0E41A /* Assets.xcassets in Resources */,
 				373147A01C8DE49200F0866F /* Settings.bundle in Resources */,
 				374CE2981C895DA900D0E41A /* Main.storyboard in Resources */,
+				3789769A1D594899005E9792 /* Onboarding2.storyboard in Resources */,
 				374CE2A51C895E4200D0E41A /* Onboarding.storyboard in Resources */,
 				37F2B8FD1C97755A00300BE1 /* inclasslaunch.storyboard in Resources */,
 			);
