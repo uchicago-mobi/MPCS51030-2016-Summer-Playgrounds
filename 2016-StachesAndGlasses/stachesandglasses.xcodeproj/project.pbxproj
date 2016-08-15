@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3774812F17373D08000E2E69 /* app.yaml */ = {isa = PBXFileReference; lastKnownFileType = text; path = app.yaml; sourceTree = "<group>"; };
+		3774813017373D08000E2E69 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		3774813217373D08000E2E69 /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		3774813317375D71000E2E69 /* index.yaml */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.yaml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3774812817373CF5000E2E69 = {
+			isa = PBXGroup;
+			children = (
+				3774812F17373D08000E2E69 /* app.yaml */,
+				3774813017373D08000E2E69 /* favicon.ico */,
+				3774813317375D71000E2E69 /* index.yaml */,
+				3774813217373D08000E2E69 /* main.py */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		3774812917373CF5000E2E69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 3774812C17373CF5000E2E69 /* Build configuration list for PBXProject "stachesandglasses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3774812817373CF5000E2E69;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		3774812D17373CF5000E2E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3774812E17373CF5000E2E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3774812C17373CF5000E2E69 /* Build configuration list for PBXProject "stachesandglasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3774812D17373CF5000E2E69 /* Debug */,
+				3774812E17373CF5000E2E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3774812917373CF5000E2E69 /* Project object */;
+}
