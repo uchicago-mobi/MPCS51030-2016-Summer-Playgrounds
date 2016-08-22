@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8E58D7DAFC6B7B5A5CFA9505155CC38F77591076",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C73D33F8D2DE4ECE10A542FB6305CD9F0A17D64C" : 9223372036854775807,
+    "00706D29013AA676B4BB9FA6F1273CF119B0A02F" : 9223372036854775807,
+    "8E58D7DAFC6B7B5A5CFA9505155CC38F77591076" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2CBC68A6-B1DF-4B3A-A485-1134CF587D6A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C73D33F8D2DE4ECE10A542FB6305CD9F0A17D64C" : "..",
+    "00706D29013AA676B4BB9FA6F1273CF119B0A02F" : "",
+    "8E58D7DAFC6B7B5A5CFA9505155CC38F77591076" : "Scoreboard\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "scoreboard",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "scoreboard.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:uchicago\/Spring2013-StachesAndGlasses.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "00706D29013AA676B4BB9FA6F1273CF119B0A02F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:uchicago\/Scoreboard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8E58D7DAFC6B7B5A5CFA9505155CC38F77591076"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:uchicago-mobi\/MPCS51030-2016-Summer-Playgrounds.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C73D33F8D2DE4ECE10A542FB6305CD9F0A17D64C"
+    }
+  ]
+}
